@@ -1,0 +1,80 @@
+body {
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: Arial;
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+}
+
+p {
+  font-family: Arial;
+  color: #fff;
+  text-align: center;
+}
+
+a {
+  color: #b7b7b7;
+}
+
+#sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 24%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.55);
+}
+
+#sidebar-img {
+  display: block;
+  margin: 0 auto;
+  padding: 40px 0 20px 0;
+  height: 200px;
+}
+
+#sidebar li {
+  font-family: Arial;
+  text-align: center;
+  list-style: none;
+  padding-right: 40px;
+  padding-top: 15px;
+}
+
+footer {
+  font-family: Arial;
+  color: #fff;
+  text-align: center;
+  padding-top: 28%;
+}
+
+main {
+  width: 75.6%;
+  box-sizing: border-box;
+  position: absolute;
+  left: 24.3%;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+#intro {
+  font-size: 22px;
+  background: rgba(0, 0, 0, 0.55);
+  width: 580px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 40px;
+}
+
+.content {
+  background: rgba(0, 0, 0, 0.8);
+  width: 750px;
+  margin: 50px auto;
+  box-sizing: border-box;
+  padding: 30px;
+}
